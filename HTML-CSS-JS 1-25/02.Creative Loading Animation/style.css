@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Set background color for the entire page */
+body {
+  background-color: #0e0c0c; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Example styling for loading animation */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjusted height for centering */
+}
+
+.loader {
+  display: flex;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: #007BFF;
+  border-radius: 50%;
+  animation: loading 0.6s infinite alternate;
+}
+
+.loading.one { animation-delay: 0s; }
+.loading.two { animation-delay: 0.2s; }
+.loading.three { animation-delay: 0.4s; }
+.loading.four { animation-delay: 0.6s; }
+
+@keyframes loading {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.5); }
+}
+
+/* Example styling for login button */
+#login-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(197, 36, 36);
+  background-color: #1775da;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-button:hover {
+  background-color: #1e7de2;
+}

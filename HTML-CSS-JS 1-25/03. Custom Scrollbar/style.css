@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(128, 16, 122);
+}
+
+.card {
+  width: 700px;
+  background: #7cc7da;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+  line-height: 28px;
+}
+
+/* Heading Colors */
+h1 {
+  color: aqua;
+}
+
+h2 {
+  color: #0a0a07; /* Yellow */
+}
+
+h3 {
+  color: #e90c0c; /* Light Red */
+}
+
+h4 {
+  color: #66ff66; /* Light Green */
+}
+
+h5 {
+  color: #ad2067; /* Light Pink */
+}
+
+h6 {
+  color: #3399ff; /* Light Blue */
+}
+
+h7 {
+  color: #cc99ff; /* Light Purple */
+}
+
+h8 {
+  color: #ff0037; /* Orange */
+}
+
+/* Text Color */
+p {
+  color: rgb(238, 6, 6);
+}
+
+/* Link Colors */
+a {
+  color: #ee0505;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b721ff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21d4fd, #b721ff);
+  border-radius: 100px;
+}
